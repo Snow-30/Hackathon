@@ -1,0 +1,23 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Snow",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nanoid": "^5.1.5",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

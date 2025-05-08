@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chat Room</title>
+	</head>
+	<body>
+    <p>Chat Room</p>
+		<button class="createRoom">Create a Room</button>
+		<input class="roomId" placeholder="Enter Room Id">
+		<button class="joinRoom">Join a Room</button>
+		<input placeholder="Type a message!" class="inputMessage">
+		<button class="sendMessage">Send</button>
+    <!-- <input class="text-input" placeholder="Enter text here!">
+    <button class="send-button">Send</button> -->
+    <div class="chat"></div>
+
+		<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+		<script type="module" src="./user.mjs"></script>
+	</body>
+</html>
